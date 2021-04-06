@@ -2,7 +2,7 @@
 
 terraform {
   backend "s3" {
-    bucket = "emg-packtclusters-vpc-terraform-state"
+    bucket = "----####"
     key = "packtclusters-vpc.tfstate"
     region = "eu-west-1" # Ireland
     dynamodb_table = "packtclusters-vpc-terraform-state-lock-dynamodb"
